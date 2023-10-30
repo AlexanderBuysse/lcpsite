@@ -28,7 +28,6 @@ MouseFollower.registerGSAP(gsap);
 
 //van alles testen
 document.querySelector('#app').innerHTML = `
-<a href="/test.html">Dit is een test voor test test test</a>
 <main class="home__container">
 		<nav class="home__nav">
 		<img class="logo" src="${Logo}" alt="logo lcp">
