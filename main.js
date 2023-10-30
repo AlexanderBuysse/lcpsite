@@ -2,6 +2,15 @@ import './reset.css'
 import './style.scss'
 import Logo from './assets/img/logo-lcp.svg';
 import Stripes from './assets/img/menu-stripes.svg';
+import Cultuurhuis from './assets/img/cultuurhuis-tessenderlo.png';
+import LogoTessenderlo from './assets/img/logo-tessenderlo.svg';
+import Logos1 from './assets/img/logos1.png';
+import Logos2 from './assets/img/logos2.png';
+import Oostende from './assets/img/oostende.png';
+import OostendeSvg from './assets/img/oostende.svg';
+import Oudenburg from './assets/img/oudenburg.png';
+import Temse from './assets/img/temse.png';
+import Theatre from './assets/img/theatre.png';
 //import MagnetMouse from 'magnet-mouse';
 import gsap from "gsap";
 
@@ -38,15 +47,15 @@ document.querySelector('#app').innerHTML = `
 
 		<article class="article-first">
 			<div class="case-container scroll-article">
-				<img src="./assets/img/oudenburg.png" width="955" height="955" class="case-img-new"/>
+				<img src="${Oudenburg}" width="955" height="955" class="case-img-new"/>
 				<h2 class=""><span class="slide-up">Stad Oudenburg</span></h2>
 				<p>Wat een stad is Oudenburg toch</p>
 			</div>
 
 			<div class="case-container">
 				<div class="tessenderlo-para">
-					<img src="./assets/img/logo-tessenderlo.svg" class="logo-tes"/>
-					<img src="./assets/img/theatre.png" width="552" height="522" class="case-img case-2"/>
+					<img src="${LogoTessenderlo}" class="logo-tes"/>
+					<img src="${Theatre}" width="552" height="522" class="case-img case-2"/>
 				</div>
 				<h2 class=""><span class="slide-up">Cultuurhuis Tessenderlo</span></h2>
 				<p>Cultuur voor iedereen</p>
@@ -56,23 +65,23 @@ document.querySelector('#app').innerHTML = `
 		<article class="article-first margintop">
 			<div class="case-container">
 				<div class="tessenderlo-para">
-					<img src="./assets/img/oostende.svg" class="logo-tes"/>
-					<img src="./assets/img/oostende.png" width="552" height="522" class="case-img case-2"/>
+					<img src="${OostendeSvg}" class="logo-tes"/>
+					<img src="${Oostende}" width="552" height="522" class="case-img case-2"/>
 				</div>
 				<h2 class=""><span class="slide-up">Stad Oostende</span></h2>
 				<p>Cultuur voor iedereen</p>
 			</div>
 
 			<div class="case-container second-art">
-				<img src="./assets/img/temse.png" width="955" height="955" class="case-img-new"/>
+				<img src="${Temse}" width="955" height="955" class="case-img-new"/>
 				<h2 class=""><span class="slide-up">Gemeente Temse</span></h2>
 				<p>De gemeente Temse is bere toch</p>
 			</div>
 		</article>
 
 		<div class="logos-container">
-			<img src="./assets/img/logos1.png" class="logo1"/>
-			<img src="./assets/img/logos2.png" class="logo2"/>
+			<img src="${Logos1}" class="logo1"/>
+			<img src="${Logos2}" class="logo2"/>
 		</div>
 
 	</main>
